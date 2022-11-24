@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_select"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/app_add">
+
+
+    <ImageView
+        android:id="@+id/queue_1"
+        android:layout_width="385dp"
+        android:layout_height="407dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="214dp"
+        android:layout_marginTop="432dp"
+        android:alpha="0.7"
+        android:background="@drawable/queue" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="221dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="291dp"
+        android:layout_marginTop="916dp"
+
+        android:text="@string/appName"
+        android:textAppearance="@style/appName"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</RelativeLayout>

@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.socialdistance"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\socialdistance\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\socialdistance\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\socialdistance\app\src\main\AndroidManifest.xml:5:5-57:19
+12        android:allowBackup="true"
+12-->C:\socialdistance\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\이라연\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->C:\socialdistance\app\src\main\AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->C:\socialdistance\app\src\main\AndroidManifest.xml:8:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\socialdistance\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\socialdistance\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\socialdistance\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\socialdistance\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.SocialDistance" >
+22-->C:\socialdistance\app\src\main\AndroidManifest.xml:13:9-52
+23        <activity
+23-->C:\socialdistance\app\src\main\AndroidManifest.xml:15:9-21:20
+24            android:name="com.example.socialdistance.LogoActivity"
+24-->C:\socialdistance\app\src\main\AndroidManifest.xml:16:13-41
+25            android:exported="false" >
+25-->C:\socialdistance\app\src\main\AndroidManifest.xml:17:13-37
+26            <meta-data
+26-->C:\socialdistance\app\src\main\AndroidManifest.xml:18:13-20:36
+27                android:name="android.app.lib_name"
+27-->C:\socialdistance\app\src\main\AndroidManifest.xml:19:17-52
+28                android:value="" />
+28-->C:\socialdistance\app\src\main\AndroidManifest.xml:20:17-33
+29        </activity>
+30        <activity
+30-->C:\socialdistance\app\src\main\AndroidManifest.xml:22:9-28:20
+31            android:name="com.example.socialdistance.ResultActivity"
+31-->C:\socialdistance\app\src\main\AndroidManifest.xml:23:13-43
+32            android:exported="false" >
+32-->C:\socialdistance\app\src\main\AndroidManifest.xml:24:13-37
+33            <meta-data
+33-->C:\socialdistance\app\src\main\AndroidManifest.xml:18:13-20:36
+34                android:name="android.app.lib_name"
+34-->C:\socialdistance\app\src\main\AndroidManifest.xml:19:17-52
+35                android:value="" />
+35-->C:\socialdistance\app\src\main\AndroidManifest.xml:20:17-33
+36        </activity>
+37        <activity
+37-->C:\socialdistance\app\src\main\AndroidManifest.xml:29:9-35:20
+38            android:name="com.example.socialdistance.SelectActivity"
+38-->C:\socialdistance\app\src\main\AndroidManifest.xml:30:13-43
+39            android:exported="false" >
+39-->C:\socialdistance\app\src\main\AndroidManifest.xml:31:13-37
+40            <meta-data
+40-->C:\socialdistance\app\src\main\AndroidManifest.xml:18:13-20:36
+41                android:name="android.app.lib_name"
+41-->C:\socialdistance\app\src\main\AndroidManifest.xml:19:17-52
+42                android:value="" />
+42-->C:\socialdistance\app\src\main\AndroidManifest.xml:20:17-33
+43        </activity>
+44        <activity
+44-->C:\socialdistance\app\src\main\AndroidManifest.xml:36:9-49:20
+45            android:name="com.example.socialdistance.MainActivity"
+45-->C:\socialdistance\app\src\main\AndroidManifest.xml:37:13-41
+46            android:configChanges="orientation|keyboardHidden|screenSize"
+46-->C:\socialdistance\app\src\main\AndroidManifest.xml:38:13-74
+47            android:exported="true" >
+47-->C:\socialdistance\app\src\main\AndroidManifest.xml:39:13-36
+48            <intent-filter>
+48-->C:\socialdistance\app\src\main\AndroidManifest.xml:40:13-44:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\socialdistance\app\src\main\AndroidManifest.xml:41:17-69
+49-->C:\socialdistance\app\src\main\AndroidManifest.xml:41:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\socialdistance\app\src\main\AndroidManifest.xml:43:17-77
+51-->C:\socialdistance\app\src\main\AndroidManifest.xml:43:27-74
+52            </intent-filter>
+53
+54            <meta-data
+54-->C:\socialdistance\app\src\main\AndroidManifest.xml:18:13-20:36
+55                android:name="android.app.lib_name"
+55-->C:\socialdistance\app\src\main\AndroidManifest.xml:19:17-52
+56                android:value="" />
+56-->C:\socialdistance\app\src\main\AndroidManifest.xml:20:17-33
+57        </activity>
+58        <activity
+58-->C:\socialdistance\app\src\main\AndroidManifest.xml:50:9-56:20
+59            android:name="com.example.socialdistance.Addctivity"
+59-->C:\socialdistance\app\src\main\AndroidManifest.xml:51:13-39
+60            android:exported="true" >
+60-->C:\socialdistance\app\src\main\AndroidManifest.xml:52:13-36
+61            <meta-data
+61-->C:\socialdistance\app\src\main\AndroidManifest.xml:18:13-20:36
+62                android:name="android.app.lib_name"
+62-->C:\socialdistance\app\src\main\AndroidManifest.xml:19:17-52
+63                android:value="" />
+63-->C:\socialdistance\app\src\main\AndroidManifest.xml:20:17-33
+64        </activity>
+65
+66        <provider
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\이라연\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+67            android:name="androidx.startup.InitializationProvider"
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\이라연\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+68            android:authorities="com.example.socialdistance.androidx-startup"
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\이라연\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+69            android:exported="false" >
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\이라연\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+70            <meta-data
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\이라연\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\이라연\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+72                android:value="androidx.startup" />
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\이라연\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+73            <meta-data
+73-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\이라연\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+74                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+74-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\이라연\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+75                android:value="androidx.startup" />
+75-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\이라연\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+76        </provider>
+77    </application>
+78
+79</manifest>

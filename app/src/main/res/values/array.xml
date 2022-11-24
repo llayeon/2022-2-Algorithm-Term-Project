@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string-array name="class_type">
+            <item>수업</item>
+            <item>시험</item>
+            <item>자습</item>
+        </string-array>
+    </resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_result"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/app_add">
+
+
+
+    <View
+        android:id="@+id/chalkboard"
+        android:layout_width="125dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="147dp"
+        android:background="@drawable/chalkboard" />
+
+    <View
+        android:id="@+id/rectangle_7"
+        android:layout_width="match_parent"
+        android:layout_height="630dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/rectangle_7"
+        android:elevation="10dp" />
+
+</RelativeLayout>
